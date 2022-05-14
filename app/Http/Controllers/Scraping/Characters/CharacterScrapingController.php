@@ -15,7 +15,7 @@ class CharacterScrapingController extends Controller {
     $characterService->characterScraping();
   }
 
-  //Metodo de prueba
+  //Metodo de prueba (Para un solo monito)
   public function singleCharacter(CharacterService $characterService) {
     $characterService->singleCharacter();
   }
